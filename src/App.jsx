@@ -1,9 +1,10 @@
-import "./App.css";
-import AddUser from "./components/name age form/AddUser";
+import AddUser from "./components/user/AddUser";
+import styles from "./App.module.css";
+
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <AddUser />
     </div>
   );
